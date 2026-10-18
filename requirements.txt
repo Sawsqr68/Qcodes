@@ -21,7 +21,7 @@ beautifulsoup4==4.14.3
     # via
     #   furo
     #   nbconvert
-bleach==6.3.0
+bleach==6.4.0
     # via nbconvert
 broadbean==0.14.0
     # via
@@ -68,7 +68,7 @@ debugpy==1.8.19
     # via ipykernel
 decorator==5.2.1
     # via ipython
-deepdiff==8.6.1
+deepdiff==8.6.2
     # via qcodes (pyproject.toml)
 defusedxml==0.7.1
     # via nbconvert
@@ -104,7 +104,7 @@ hickle==5.0.3
     # via qcodes-loop
 hypothesis==6.148.8
     # via qcodes (pyproject.toml)
-idna==3.11
+idna==3.15
     # via requests
 imagesize==1.4.1
     # via sphinx
@@ -170,7 +170,7 @@ libcst==1.8.6
     # via qcodes (pyproject.toml)
 locket==1.0.0
     # via partd
-lxml==6.0.2
+lxml==6.1.0
     # via qcodes (pyproject.toml)
 lxml-stubs==0.5.1
     # via qcodes (pyproject.toml)
@@ -188,7 +188,7 @@ matplotlib-inline==0.2.1
     # via
     #   ipykernel
     #   ipython
-mistune==3.2.0
+mistune==3.3.3
     # via nbconvert
 mypy==1.19.1
     # via qcodes (pyproject.toml)
@@ -196,7 +196,7 @@ mypy-extensions==1.1.0
     # via mypy
 nbclient==0.10.4
     # via nbconvert
-nbconvert==7.16.6
+nbconvert==7.17.1
     # via nbsphinx
 nbformat==5.10.4
     # via
@@ -268,7 +268,7 @@ partd==1.4.2
     # via dask
 pathspec==0.12.1
     # via mypy
-pillow==12.0.0
+pillow==12.3.0
     # via
     #   qcodes (pyproject.toml)
     #   matplotlib
@@ -285,13 +285,13 @@ psutil==7.2.0
     # via ipykernel
 pure-eval==0.2.3
     # via stack-data
-pyarrow==22.0.0
+pyarrow==23.0.1
     # via
     #   qcodes (pyproject.toml)
     #   qcodes
 pyelftools==0.32
     # via zhinst-toolkit
-pygments==2.19.2
+pygments==2.20.0
     # via
     #   accessible-pygments
     #   furo
@@ -302,7 +302,7 @@ pygments==2.19.2
     #   sphinx
 pyparsing==3.3.1
     # via matplotlib
-pytest==9.0.2
+pytest==9.0.3
     # via
     #   qcodes (pyproject.toml)
     #   pytest-asyncio
@@ -353,7 +353,7 @@ referencing==0.37.0
     #   jsonschema
     #   jsonschema-specifications
     #   types-jsonschema
-requests==2.32.5
+requests==2.33.0
     # via
     #   sphinx
     #   sphinx-jsonschema
@@ -379,7 +379,7 @@ snowballstemmer==3.0.1
     # via sphinx
 sortedcontainers==2.4.0
     # via hypothesis
-soupsieve==2.8.1
+soupsieve==2.9
     # via beautifulsoup4
 sphinx==8.2.3
     # via
@@ -427,7 +427,7 @@ toolz==1.1.0
     # via
     #   dask
     #   partd
-tornado==6.5.4
+tornado==6.5.9
     # via
     #   ipykernel
     #   jupyter-client
@@ -486,7 +486,7 @@ uncertainties==3.2.3
     # via
     #   qcodes (pyproject.toml)
     #   qcodes
-urllib3==2.6.2
+urllib3==2.8.0
     # via
     #   requests
     #   types-requests
